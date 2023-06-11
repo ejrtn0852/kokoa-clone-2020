@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <link rel="stylesheet" href="../css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Kokoa Clone</title>
+</head>
+<body>
+    <!-- 배터리 시간 와이파이 포함한 header 시작-->
+    <div class="status-bar">
+        <div class="status-bar_column">
+            <span>No Service</span>
+            <i class="fa-solid fa-wifi"></i>
+        </div>
+        <div class="status-bar_column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar_column">
+            <span>100%</span>
+            <i class="fa-solid fa-battery-full fa-lg"></i>
+            <i class="fa-solid fa-bolt-lightning"></i>
+        </div>
+    </div>
+    <!-- 배터리 시간 와이파이 포함한 header 끝-->
+    <!-- Welcome to Kokoa clone  헤더 시작 -->
+    <header class="welcome-header">
+        <h1 class="welcome-header_title">Welcome to Kokoa clone</h1>
+        <p class="welcome-header_text">If you havbe a Kokoa Account, log in with your email or phone number.</p>
+    </header>
+    <!-- Welcome to Kokoa clone  헤더 끝 -->
+
+    <!--(form tag) 이메일,비밀번호,로그인,Sign Up 이메일,비밀번호 찾기 시작 -->
+    <form action="friends.html"  method="get"  id="login-form">
+        <input name="username" type="email" placeholder="Email or phone number"/>
+        <input name="password" type="password" name="" placeholder="Password"/>
+        <input type="submit" value="Log in"/>
+        <input type="submit" value="Sign Up">
+        <a href="#">Find Kokoa Account or Password</a>
+    </form>
+    <!--(form tag) 이메일,비밀번호,로그인,Sign Up,이메일,비밀번호 찾기 종료 -->
+
+    
+
+
+    <!-- 스크립트는 항상 마지막에 있어야한다,body 태그를 닫기 직전에. -->
+    <script src="https://kit.fontawesome.com/f2e0cef0ae.js" crossorigin="anonymous"></script>
+</body>
+</html>
